@@ -1,0 +1,40 @@
+body{
+   font-family:cursive;
+   font-size:48px;
+   background:black;
+   color:white;
+   height:100%;
+}
+
+.wrapper{
+   width:800px;
+   margin:30px auto;
+   text-align:center;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+}
+
+button{
+   font-size:28px;
+   padding:20px;
+   border-radius:25px;
+   margin:10px;
+   border:none;
+   cursor:pointer;
+}
+
+button:hover{
+   border: solid 10px beige;
+}
+
+#button-start{
+   background:green;
+   color:black;
+}
+
+#button-stop{
+   background:red;
+   color:black
+}
